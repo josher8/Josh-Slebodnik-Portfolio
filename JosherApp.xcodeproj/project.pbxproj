@@ -66,8 +66,8 @@
 		0C996A6E1BB4CA8700A5822B /* JosherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JosherAppUITests.swift; sourceTree = "<group>"; };
 		0C996A701BB4CA8700A5822B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C996A7C1BB4CC7000A5822B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		0C996A7F1BB4CC9D00A5822B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		0C996A801BB4CC9D00A5822B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0C996A7F1BB4CC9D00A5822B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		0C996A801BB4CC9D00A5822B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
 		0C996A831BB4CCD000A5822B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0C996A851BB4CCD600A5822B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C996A871BB4CCDB00A5822B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -145,6 +145,8 @@
 		0C996A4D1BB4CA8700A5822B /* JosherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C996A7F1BB4CC9D00A5822B /* Bolts.framework */,
+				0C996A801BB4CC9D00A5822B /* Parse.framework */,
 				0CEAD24C1BB4E92100FBECC7 /* Data */,
 				0C996A4E1BB4CA8700A5822B /* AppDelegate.swift */,
 				0CADA3C51BB8646400432F23 /* ContactMe.swift */,
@@ -191,8 +193,6 @@
 				0C996A871BB4CCDB00A5822B /* CoreLocation.framework */,
 				0C996A851BB4CCD600A5822B /* CoreGraphics.framework */,
 				0C996A831BB4CCD000A5822B /* CFNetwork.framework */,
-				0C996A7F1BB4CC9D00A5822B /* Bolts.framework */,
-				0C996A801BB4CC9D00A5822B /* Parse.framework */,
 				0C996A7C1BB4CC7000A5822B /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
